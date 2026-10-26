@@ -415,11 +415,11 @@ Keep one pointer fixed at the meeting node and move the other until it returns, 
 
 </details>
 
+**Real output of the Session 3 lab solutions:**
+
 ```text
-$ java -cp out Labs05
-length = 6, sum = 108
-dedup(1 1 2 3 3 3 4) = 1 -> 2 -> 3 -> 4 -> null
-insertSorted 30, 5 = 5 -> 10 -> 20 -> 30 -> 40 -> null
+$ java -cp out Labs05 3
+-- Session 3 labs --
 342 + 465 as lists = 7 -> 0 -> 8 -> null
 oddEven(1..7) = 1 -> 3 -> 5 -> 7 -> 2 -> 4 -> 6 -> null
 ```
