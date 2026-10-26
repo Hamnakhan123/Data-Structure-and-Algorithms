@@ -413,13 +413,15 @@ Replace `if (size == data.length) grow();` with `if (size == data.length) return
 
 </details>
 
+**Real output of the Session 1 lab solutions:**
+
 ```text
-$ java -cp out Labs07
+$ java -cp out Labs07 1
+-- Session 1 labs --
 reversed queue = [5, 4, 3, 2, 1]
 first 10 binary numbers = [1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010]
 hot potato survivor = Chand
 recent calls at t=1,100,3001,3002 -> 1 2 3 3
-first negative per window (k=3) of [-8, 2, 3, -6, 10] = [-8, -6, -6]
 ```
 
 ---
