@@ -390,12 +390,11 @@ Loop i from 0 to 2n − 1 using `a[i % n]`, but only push indices during the fir
 
 </details>
 
+**Real output of the Session 3 lab solutions:**
+
 ```text
-$ java -cp out Labs06
-toBinary(37) = 100101, toBinary(0) = 0
-queue from two stacks: a b c d
-simplifyPath("/home/./hamna/../dsa//stacks/") = /home/dsa/stacks
-tagsBalanced(<p><b>hi</b></p>) = true, (<p><b>hi</p></b>) = false
+$ java -cp out Labs06 3
+-- Session 3 labs --
 removeKDigits("1432219", 3) = 1219, ("10200", 1) = 200
 ```
 
