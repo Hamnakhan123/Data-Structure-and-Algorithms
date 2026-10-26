@@ -5,7 +5,7 @@ import java.util.Arrays;
  * Each solution sits between "// >>> name" and "// <<< name" markers.
  *
  * Compile:  javac -d out Labs02.java
- * Run:      java -cp out Labs02
+ * Run:      java -cp out Labs02 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -107,23 +107,33 @@ public class Labs02 {
     // <<< cleanPalindrome
 
     public static void main(String[] args) {
-        int[] a = {1, 2, 3, 4, 5, 6, 7};
-        rotateRight(a, 3);
-        System.out.println("rotateRight([1..7], 3) = " + Arrays.toString(a));
-        int[] d = {1, 1, 2, 3, 3, 3, 7, 9, 9};
-        int len = dedupSorted(d);
-        System.out.println("dedupSorted -> length " + len + ": " + Arrays.toString(Arrays.copyOf(d, len)));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            int[] a = {1, 2, 3, 4, 5, 6, 7};
+            rotateRight(a, 3);
+            System.out.println("rotateRight([1..7], 3) = " + Arrays.toString(a));
+            int[] d = {1, 1, 2, 3, 3, 3, 7, 9, 9};
+            int len = dedupSorted(d);
+            System.out.println("dedupSorted -> length " + len + ": " + Arrays.toString(Arrays.copyOf(d, len)));
 
-        int[][] m = {{1, 4, 7, 11}, {2, 5, 8, 12}, {3, 6, 9, 16}, {10, 13, 14, 17}};
-        System.out.println("search 9 in sorted matrix -> " + Arrays.toString(searchSortedMatrix(m, 9)));
-        System.out.println("search 15 in sorted matrix -> " + Arrays.toString(searchSortedMatrix(m, 15)));
-        int[][] marks = {{70, 85, 90}, {60, 75, 80}};
-        int[][] rc = rowColSums(marks);
-        System.out.println("row sums " + Arrays.toString(rc[0]) + ", column sums " + Arrays.toString(rc[1]));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            int[][] m = {{1, 4, 7, 11}, {2, 5, 8, 12}, {3, 6, 9, 16}, {10, 13, 14, 17}};
+            System.out.println("search 9 in sorted matrix -> " + Arrays.toString(searchSortedMatrix(m, 9)));
+            System.out.println("search 15 in sorted matrix -> " + Arrays.toString(searchSortedMatrix(m, 15)));
+            int[][] marks = {{70, 85, 90}, {60, 75, 80}};
+            int[][] rc = rowColSums(marks);
+            System.out.println("row sums " + Arrays.toString(rc[0]) + ", column sums " + Arrays.toString(rc[1]));
 
-        System.out.println("firstUnique(\"statistics\") = " + firstUnique("statistics"));
-        System.out.println("longestCommonPrefix = \"" + longestCommonPrefix(new String[]{"interview", "internet", "interval"}) + "\"");
-        System.out.println("isCleanPalindrome(\"A man, a plan, a canal: Panama\") = "
-                + isCleanPalindrome("A man, a plan, a canal: Panama"));
+        }
+        if (session == 0 || session == 3) {
+            System.out.println("-- Session 3 labs --");
+            System.out.println("firstUnique(\"statistics\") = " + firstUnique("statistics"));
+            System.out.println("longestCommonPrefix = \"" + longestCommonPrefix(new String[]{"interview", "internet", "interval"}) + "\"");
+            System.out.println("isCleanPalindrome(\"A man, a plan, a canal: Panama\") = "
+                    + isCleanPalindrome("A man, a plan, a canal: Panama"));
+        }
     }
 }
