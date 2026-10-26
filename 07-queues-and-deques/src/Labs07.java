@@ -9,7 +9,7 @@ import java.util.Queue;
  * Each solution sits between "// >>> name" and "// <<< name" markers.
  *
  * Compile:  javac -d out Labs07.java
- * Run:      java -cp out Labs07
+ * Run:      java -cp out Labs07 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -79,14 +79,21 @@ public class Labs07 {
     // <<< firstNegative
 
     public static void main(String[] args) {
-        Queue<Integer> q = new ArrayDeque<>(List.of(1, 2, 3, 4, 5));
-        reverse(q);
-        System.out.println("reversed queue = " + q);
-        System.out.println("first 10 binary numbers = " + binaryNumbers(10));
-        System.out.println("hot potato survivor = " + hotPotato(new String[]{"Ali", "Bina", "Chand", "Dua", "Emaan", "Faiz"}, 7));
-        RecentCounter rc = new RecentCounter();
-        System.out.println("recent calls at t=1,100,3001,3002 -> " + rc.ping(1) + " " + rc.ping(100) + " " + rc.ping(3001) + " " + rc.ping(3002));
-        System.out.println("first negative per window (k=3) of [-8, 2, 3, -6, 10] = "
-                + java.util.Arrays.toString(firstNegative(new int[]{-8, 2, 3, -6, 10}, 3)));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            Queue<Integer> q = new ArrayDeque<>(List.of(1, 2, 3, 4, 5));
+            reverse(q);
+            System.out.println("reversed queue = " + q);
+            System.out.println("first 10 binary numbers = " + binaryNumbers(10));
+            System.out.println("hot potato survivor = " + hotPotato(new String[]{"Ali", "Bina", "Chand", "Dua", "Emaan", "Faiz"}, 7));
+            RecentCounter rc = new RecentCounter();
+            System.out.println("recent calls at t=1,100,3001,3002 -> " + rc.ping(1) + " " + rc.ping(100) + " " + rc.ping(3001) + " " + rc.ping(3002));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            System.out.println("first negative per window (k=3) of [-8, 2, 3, -6, 10] = "
+                    + java.util.Arrays.toString(firstNegative(new int[]{-8, 2, 3, -6, 10}, 3)));
+        }
     }
 }
