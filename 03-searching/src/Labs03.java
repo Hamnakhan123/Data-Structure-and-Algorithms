@@ -3,7 +3,7 @@
  * Each solution sits between "// >>> name" and "// <<< name" markers.
  *
  * Compile:  javac -d out Labs03.java
- * Run:      java -cp out Labs03
+ * Run:      java -cp out Labs03 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -75,13 +75,20 @@ public class Labs03 {
     // <<< kokoBananas
 
     public static void main(String[] args) {
-        System.out.println("lastIndexOf({4,7,4,9,4}, 4) = " + lastIndexOf(new int[]{4, 7, 4, 9, 4}, 4));
-        String[] names = {"Ahmed", "Bushra", "Faraz", "Hamza", "Mehwish", "Rabia", "Zainab"};
-        System.out.println("searchName(Mehwish) = " + searchName(names, "Mehwish") + ", searchName(Kashif) = " + searchName(names, "Kashif"));
-        int[][] m = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
-        System.out.println("searchMatrix(16) = " + searchMatrix(m, 16) + ", searchMatrix(13) = " + searchMatrix(m, 13));
-        int[] prices = {120, 250, 400, 650, 999};
-        System.out.println("closest price to 500 = " + closest(prices, 500) + ", to 600 = " + closest(prices, 600));
-        System.out.println("minSpeed({3,6,7,11}, 8 hours) = " + minSpeed(new int[]{3, 6, 7, 11}, 8));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            System.out.println("lastIndexOf({4,7,4,9,4}, 4) = " + lastIndexOf(new int[]{4, 7, 4, 9, 4}, 4));
+            String[] names = {"Ahmed", "Bushra", "Faraz", "Hamza", "Mehwish", "Rabia", "Zainab"};
+            System.out.println("searchName(Mehwish) = " + searchName(names, "Mehwish") + ", searchName(Kashif) = " + searchName(names, "Kashif"));
+            int[][] m = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
+            System.out.println("searchMatrix(16) = " + searchMatrix(m, 16) + ", searchMatrix(13) = " + searchMatrix(m, 13));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            int[] prices = {120, 250, 400, 650, 999};
+            System.out.println("closest price to 500 = " + closest(prices, 500) + ", to 600 = " + closest(prices, 600));
+            System.out.println("minSpeed({3,6,7,11}, 8 hours) = " + minSpeed(new int[]{3, 6, 7, 11}, 8));
+        }
     }
 }
