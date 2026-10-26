@@ -447,13 +447,14 @@ public boolean contains(T x) { return indexOf(x) != -1; }
 
 </details>
 
+**Real output of the Session 1 lab solutions:**
+
 ```text
-$ java -cp out Labs05
+$ java -cp out Labs05 1
+-- Session 1 labs --
 length = 6, sum = 108
 dedup(1 1 2 3 3 3 4) = 1 -> 2 -> 3 -> 4 -> null
 insertSorted 30, 5 = 5 -> 10 -> 20 -> 30 -> 40 -> null
-342 + 465 as lists = 7 -> 0 -> 8 -> null
-oddEven(1..7) = 1 -> 3 -> 5 -> 7 -> 2 -> 4 -> 6 -> null
 ```
 
 ---
