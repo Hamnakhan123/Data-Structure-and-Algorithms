@@ -6,7 +6,7 @@ import java.util.Deque;
  * Each solution sits between "// >>> name" and "// <<< name" markers.
  *
  * Compile:  javac -d out Labs06.java
- * Run:      java -cp out Labs06
+ * Run:      java -cp out Labs06 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -89,16 +89,26 @@ public class Labs06 {
     // <<< removeKDigits
 
     public static void main(String[] args) {
-        System.out.println("toBinary(37) = " + toBinary(37) + ", toBinary(0) = " + toBinary(0));
-        QueueFromStacks<String> q = new QueueFromStacks<>();
-        q.enqueue("a"); q.enqueue("b"); q.enqueue("c");
-        System.out.print("queue from two stacks: " + q.dequeue() + " " + q.dequeue());
-        q.enqueue("d");
-        System.out.println(" " + q.dequeue() + " " + q.dequeue());
-        System.out.println("simplifyPath(\"/home/./hamna/../dsa//stacks/\") = " + simplifyPath("/home/./hamna/../dsa//stacks/"));
-        System.out.println("tagsBalanced(<p><b>hi</b></p>) = " + tagsBalanced("<p><b>hi</b></p>")
-                + ", (<p><b>hi</p></b>) = " + tagsBalanced("<p><b>hi</p></b>"));
-        System.out.println("removeKDigits(\"1432219\", 3) = " + removeKDigits("1432219", 3)
-                + ", (\"10200\", 1) = " + removeKDigits("10200", 1));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            System.out.println("toBinary(37) = " + toBinary(37) + ", toBinary(0) = " + toBinary(0));
+            QueueFromStacks<String> q = new QueueFromStacks<>();
+            q.enqueue("a"); q.enqueue("b"); q.enqueue("c");
+            System.out.print("queue from two stacks: " + q.dequeue() + " " + q.dequeue());
+            q.enqueue("d");
+            System.out.println(" " + q.dequeue() + " " + q.dequeue());
+            System.out.println("simplifyPath(\"/home/./hamna/../dsa//stacks/\") = " + simplifyPath("/home/./hamna/../dsa//stacks/"));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            System.out.println("tagsBalanced(<p><b>hi</b></p>) = " + tagsBalanced("<p><b>hi</b></p>")
+                    + ", (<p><b>hi</p></b>) = " + tagsBalanced("<p><b>hi</p></b>"));
+        }
+        if (session == 0 || session == 3) {
+            System.out.println("-- Session 3 labs --");
+            System.out.println("removeKDigits(\"1432219\", 3) = " + removeKDigits("1432219", 3)
+                    + ", (\"10200\", 1) = " + removeKDigits("10200", 1));
+        }
     }
 }
