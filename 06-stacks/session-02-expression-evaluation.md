@@ -432,13 +432,12 @@ Stack evolves: 5 → 5 1 → 5 1 2 → 5 3 → 5 3 4 → 5 12 → 17 → 17 3 �
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs06
-toBinary(37) = 100101, toBinary(0) = 0
-queue from two stacks: a b c d
-simplifyPath("/home/./hamna/../dsa//stacks/") = /home/dsa/stacks
+$ java -cp out Labs06 2
+-- Session 2 labs --
 tagsBalanced(<p><b>hi</b></p>) = true, (<p><b>hi</p></b>) = false
-removeKDigits("1432219", 3) = 1219, ("10200", 1) = 200
 ```
 
 ---
