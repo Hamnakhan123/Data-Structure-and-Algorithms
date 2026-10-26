@@ -432,11 +432,11 @@ static boolean searchMatrix(int[][] m, int key) {
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs03
-lastIndexOf({4,7,4,9,4}, 4) = 4
-searchName(Mehwish) = 4, searchName(Kashif) = -1
-searchMatrix(16) = true, searchMatrix(13) = false
+$ java -cp out Labs03 2
+-- Session 2 labs --
 closest price to 500 = 400, to 600 = 650
 minSpeed({3,6,7,11}, 8 hours) = 4
 ```
