@@ -429,13 +429,11 @@ When `j == m`, record `i − m + 1`, then set `j = lps[j − 1]` and continue sc
 
 </details>
 
+**Real output of the Session 3 lab solutions:**
+
 ```text
-$ java -cp out Labs02
-rotateRight([1..7], 3) = [5, 6, 7, 1, 2, 3, 4]
-dedupSorted -> length 5: [1, 2, 3, 7, 9]
-search 9 in sorted matrix -> [2, 2]
-search 15 in sorted matrix -> [-1, -1]
-row sums [245, 215], column sums [130, 160, 170]
+$ java -cp out Labs02 3
+-- Session 3 labs --
 firstUnique("statistics") = 2
 longestCommonPrefix = "inter"
 isCleanPalindrome("A man, a plan, a canal: Panama") = true
