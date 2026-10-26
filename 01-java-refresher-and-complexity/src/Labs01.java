@@ -9,7 +9,7 @@ import java.util.Set;
  * lesson notes can quote exactly the code that is compiled and tested here.
  *
  * Compile:  javac -d out Labs01.java
- * Run:      java -cp out Labs01
+ * Run:      java -cp out Labs01 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -131,24 +131,34 @@ public class Labs01 {
     // <<< countDown
 
     public static void main(String[] args) {
-        String[] names = {"Hina", "Omar", "Zara"};
-        swap(names, 0, 2);
-        System.out.println("swap -> " + Arrays.toString(names));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            String[] names = {"Hina", "Omar", "Zara"};
+            swap(names, 0, 2);
+            System.out.println("swap -> " + Arrays.toString(names));
 
-        String[] words = {"stack", "map", "queue", "heap", "set", "graph"};
-        Arrays.sort(words, BY_LENGTH_THEN_ALPHA);
-        System.out.println("by length then alpha -> " + Arrays.toString(words));
-        System.out.println("secondLargest({4, 9, 9, 7, 1}) = " + secondLargest(new int[]{4, 9, 9, 7, 1}));
+            String[] words = {"stack", "map", "queue", "heap", "set", "graph"};
+            Arrays.sort(words, BY_LENGTH_THEN_ALPHA);
+            System.out.println("by length then alpha -> " + Arrays.toString(words));
+            System.out.println("secondLargest({4, 9, 9, 7, 1}) = " + secondLargest(new int[]{4, 9, 9, 7, 1}));
 
-        int[] data = {12, 5, 8, 21, 5, 30};
-        System.out.println("duplicates? brute=" + hasDuplicateBrute(data) + " sorted=" + hasDuplicateSorted(data)
-                + " hash=" + hasDuplicateHash(data));
-        System.out.println("pairWithSum({1,3,4,6,8,11}, 10) -> indices "
-                + Arrays.toString(pairWithSum(new int[]{1, 3, 4, 6, 8, 11}, 10)));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            int[] data = {12, 5, 8, 21, 5, 30};
+            System.out.println("duplicates? brute=" + hasDuplicateBrute(data) + " sorted=" + hasDuplicateSorted(data)
+                    + " hash=" + hasDuplicateHash(data));
+            System.out.println("pairWithSum({1,3,4,6,8,11}, 10) -> indices "
+                    + Arrays.toString(pairWithSum(new int[]{1, 3, 4, 6, 8, 11}, 10)));
 
-        System.out.println("arraySum({3,1,4,1,5}) = " + arraySum(new int[]{3, 1, 4, 1, 5}, 0));
-        System.out.println("reverse(\"recursion\") = " + reverse("recursion"));
-        System.out.println("gridPaths(2,2) = " + gridPaths(2, 2) + ", gridPaths(5,5) = " + gridPaths(5, 5));
-        countDown(5);
+        }
+        if (session == 0 || session == 3) {
+            System.out.println("-- Session 3 labs --");
+            System.out.println("arraySum({3,1,4,1,5}) = " + arraySum(new int[]{3, 1, 4, 1, 5}, 0));
+            System.out.println("reverse(\"recursion\") = " + reverse("recursion"));
+            System.out.println("gridPaths(2,2) = " + gridPaths(2, 2) + ", gridPaths(5,5) = " + gridPaths(5, 5));
+            countDown(5);
+        }
     }
 }
