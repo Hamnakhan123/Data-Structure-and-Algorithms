@@ -468,19 +468,14 @@ static int secondLargest(int[] a) {
 
 </details>
 
-Run all lab solutions:
+**Real output of the Session 1 lab solutions:**
 
 ```text
-$ java -cp out Labs01
+$ java -cp out Labs01 1
+-- Session 1 labs --
 swap -> [Zara, Omar, Hina]
 by length then alpha -> [map, set, heap, graph, queue, stack]
 secondLargest({4, 9, 9, 7, 1}) = 7
-duplicates? brute=true sorted=true hash=true
-pairWithSum({1,3,4,6,8,11}, 10) -> indices [2, 3]
-arraySum({3,1,4,1,5}) = 14
-reverse("recursion") = noisrucer
-gridPaths(2,2) = 6, gridPaths(5,5) = 252
-5 4 3 2 1 Go!
 ```
 
 ---
