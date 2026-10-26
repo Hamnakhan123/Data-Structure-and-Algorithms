@@ -436,14 +436,6 @@ For the example: P1 13 − 5 = 8, P2 6 − 3 = 3, P3 18 − 8 = 10, P4 11 − 2 
 
 </details>
 
-```text
-$ java -cp out Labs05
-length = 6, sum = 108
-dedup(1 1 2 3 3 3 4) = 1 -> 2 -> 3 -> 4 -> null
-insertSorted 30, 5 = 5 -> 10 -> 20 -> 30 -> 40 -> null
-342 + 465 as lists = 7 -> 0 -> 8 -> null
-oddEven(1..7) = 1 -> 3 -> 5 -> 7 -> 2 -> 4 -> 6 -> null
-```
 
 ---
 
