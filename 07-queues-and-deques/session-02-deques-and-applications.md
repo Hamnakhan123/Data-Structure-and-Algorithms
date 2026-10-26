@@ -435,12 +435,11 @@ Store a `parent[r][c]` cell when a neighbour is first enqueued. After reaching E
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs07
-reversed queue = [5, 4, 3, 2, 1]
-first 10 binary numbers = [1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010]
-hot potato survivor = Chand
-recent calls at t=1,100,3001,3002 -> 1 2 3 3
+$ java -cp out Labs07 2
+-- Session 2 labs --
 first negative per window (k=3) of [-8, 2, 3, -6, 10] = [-8, -6, -6]
 ```
 
