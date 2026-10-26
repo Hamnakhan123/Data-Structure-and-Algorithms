@@ -6,8 +6,6 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **17 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
-
 ![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-43-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-77-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
@@ -150,7 +148,8 @@ flowchart LR
 2. [More Interview Patterns and Choosing the Right One](17-interview-problem-patterns/session-02-more-patterns.md)
 - ✍️ [Practice test](17-interview-problem-patterns/practice-test.md) · 💻 [Source code](17-interview-problem-patterns/src/README.md)
 
-### 🏆 Capstone Projects · ⏳ *coming soon*
+### [🏆 Capstone Projects](capstone/README.md)
+
 
 ## 🧱 How each module is organised
 
@@ -246,7 +245,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 15 · Greedy Algorithms
 - [ ] Module 16 · Dynamic Programming
 - [ ] Module 17 · Interview Problem Patterns
-- [ ] 🏆 Capstone Projects *(coming soon)*
+- [ ] 🏆 Capstone Projects
 
 ## 📝 Suggested study routine
 
