@@ -457,13 +457,11 @@ This version is O(n²) because of `substring`; an index-based version that swaps
 
 </details>
 
+**Real output of the Session 3 lab solutions:**
+
 ```text
-$ java -cp out Labs01
-swap -> [Zara, Omar, Hina]
-by length then alpha -> [map, set, heap, graph, queue, stack]
-secondLargest({4, 9, 9, 7, 1}) = 7
-duplicates? brute=true sorted=true hash=true
-pairWithSum({1,3,4,6,8,11}, 10) -> indices [2, 3]
+$ java -cp out Labs01 3
+-- Session 3 labs --
 arraySum({3,1,4,1,5}) = 14
 reverse("recursion") = noisrucer
 gridPaths(2,2) = 6, gridPaths(5,5) = 252
