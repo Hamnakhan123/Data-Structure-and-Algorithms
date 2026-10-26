@@ -443,14 +443,13 @@ Same O(n log n), no recursion stack.
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs04
-cities by length (stable): [Quetta, Lahore, Multan, Sukkur, Karachi, Hyderabad]
-bubble swaps for [3,1,2,5,4] = 3, inversions = 3
+$ java -cp out Labs04 2
+-- Session 2 labs --
 mergeSorted = [1, 2, 3, 4, 9, 10, 12]
 3rd smallest of [67, 23, 89, 45, 91, 12, 56] = 45, median = 56
-sortColors -> [0, 0, 0, 1, 1, 1, 2, 2, 2]
-dates sorted -> [[25, 12, 1876], [23, 3, 1940], [14, 8, 1940], [14, 8, 1947], [1, 1, 2000]]
 ```
 
 ---
