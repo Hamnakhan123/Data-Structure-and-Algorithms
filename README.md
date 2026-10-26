@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **10 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **11 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-25-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-45-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-27-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-49-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -104,7 +104,11 @@ flowchart LR
 2. [Red-Black Trees (Overview) and Java's TreeMap](10-balanced-trees/session-02-red-black-trees-overview.md)
 - ✍️ [Practice test](10-balanced-trees/practice-test.md) · 💻 [Source code](10-balanced-trees/src/README.md)
 
-### Module 11 · Heaps and Priority Queues · ⏳ *coming soon*
+### [Module 11 · Heaps and Priority Queues](11-heaps-and-priority-queues/README.md)
+
+1. [Binary Heaps](11-heaps-and-priority-queues/session-01-binary-heaps.md)
+2. [Priority Queue Applications](11-heaps-and-priority-queues/session-02-priority-queue-applications.md)
+- ✍️ [Practice test](11-heaps-and-priority-queues/practice-test.md) · 💻 [Source code](11-heaps-and-priority-queues/src/README.md)
 
 ### Module 12 · Graphs · ⏳ *coming soon*
 
@@ -207,7 +211,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 08 · Hashing
 - [ ] Module 09 · Trees and Binary Search Trees
 - [ ] Module 10 · Balanced Trees (AVL, Red-Black)
-- [ ] Module 11 · Heaps and Priority Queues *(coming soon)*
+- [ ] Module 11 · Heaps and Priority Queues
 - [ ] Module 12 · Graphs *(coming soon)*
 - [ ] Module 13 · Tries, Segment Trees and Fenwick Trees *(coming soon)*
 - [ ] Module 14 · Recursion and Backtracking *(coming soon)*
