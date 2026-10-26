@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **5 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **6 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-14-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-24-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-17-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-29-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -73,7 +73,12 @@ flowchart LR
 3. [Classic Linked-List Problems](05-linked-lists/session-03-classic-linked-list-problems.md)
 - ✍️ [Practice test](05-linked-lists/practice-test.md) · 💻 [Source code](05-linked-lists/src/README.md)
 
-### Module 06 · Stacks · ⏳ *coming soon*
+### [Module 06 · Stacks](06-stacks/README.md)
+
+1. [The Stack ADT and Its Implementations](06-stacks/session-01-stack-adt-and-implementations.md)
+2. [Stack Applications: Brackets and Expressions](06-stacks/session-02-expression-evaluation.md)
+3. [Monotonic Stacks](06-stacks/session-03-monotonic-stack.md)
+- ✍️ [Practice test](06-stacks/practice-test.md) · 💻 [Source code](06-stacks/src/README.md)
 
 ### Module 07 · Queues and Deques · ⏳ *coming soon*
 
@@ -181,7 +186,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 03 · Searching
 - [ ] Module 04 · Sorting
 - [ ] Module 05 · Linked Lists
-- [ ] Module 06 · Stacks *(coming soon)*
+- [ ] Module 06 · Stacks
 - [ ] Module 07 · Queues and Deques *(coming soon)*
 - [ ] Module 08 · Hashing *(coming soon)*
 - [ ] Module 09 · Trees and Binary Search Trees *(coming soon)*
