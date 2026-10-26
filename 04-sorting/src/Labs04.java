@@ -6,7 +6,7 @@ import java.util.Comparator;
  * Each solution sits between "// >>> name" and "// <<< name" markers.
  *
  * Compile:  javac -d out Labs04.java
- * Run:      java -cp out Labs04
+ * Run:      java -cp out Labs04 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -96,20 +96,30 @@ public class Labs04 {
     // <<< sortDates
 
     public static void main(String[] args) {
-        String[] cities = {"Quetta", "Lahore", "Karachi", "Multan", "Hyderabad", "Sukkur"};
-        insertionSort(cities, Comparator.comparingInt(String::length));
-        System.out.println("cities by length (stable): " + Arrays.toString(cities));
-        System.out.println("bubble swaps for [3,1,2,5,4] = " + bubbleSwapCount(new int[]{3, 1, 2, 5, 4})
-                + ", inversions = " + MergeQuickSort.countInversions(new int[]{3, 1, 2, 5, 4}));
-        System.out.println("mergeSorted = " + Arrays.toString(mergeSorted(new int[]{1, 4, 9}, new int[]{2, 3, 10, 12})));
-        int[] marks = {67, 23, 89, 45, 91, 12, 56};
-        System.out.println("3rd smallest of " + Arrays.toString(marks) + " = " + quickSelect(marks, 2)
-                + ", median = " + quickSelect(marks, marks.length / 2));
-        int[] colors = {2, 0, 2, 1, 1, 0, 0, 2, 1};
-        sortColors(colors);
-        System.out.println("sortColors -> " + Arrays.toString(colors));
-        int[][] dates = {{14, 8, 1947}, {23, 3, 1940}, {25, 12, 1876}, {14, 8, 1940}, {1, 1, 2000}};
-        sortDates(dates);
-        System.out.println("dates sorted -> " + Arrays.deepToString(dates));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            String[] cities = {"Quetta", "Lahore", "Karachi", "Multan", "Hyderabad", "Sukkur"};
+            insertionSort(cities, Comparator.comparingInt(String::length));
+            System.out.println("cities by length (stable): " + Arrays.toString(cities));
+            System.out.println("bubble swaps for [3,1,2,5,4] = " + bubbleSwapCount(new int[]{3, 1, 2, 5, 4})
+                    + ", inversions = " + MergeQuickSort.countInversions(new int[]{3, 1, 2, 5, 4}));
+        }
+        if (session == 0 || session == 2) {
+            System.out.println("-- Session 2 labs --");
+            System.out.println("mergeSorted = " + Arrays.toString(mergeSorted(new int[]{1, 4, 9}, new int[]{2, 3, 10, 12})));
+            int[] marks = {67, 23, 89, 45, 91, 12, 56};
+            System.out.println("3rd smallest of " + Arrays.toString(marks) + " = " + quickSelect(marks, 2)
+                    + ", median = " + quickSelect(marks, marks.length / 2));
+        }
+        if (session == 0 || session == 3) {
+            System.out.println("-- Session 3 labs --");
+            int[] colors = {2, 0, 2, 1, 1, 0, 0, 2, 1};
+            sortColors(colors);
+            System.out.println("sortColors -> " + Arrays.toString(colors));
+            int[][] dates = {{14, 8, 1947}, {23, 3, 1940}, {25, 12, 1876}, {14, 8, 1940}, {1, 1, 2000}};
+            sortDates(dates);
+            System.out.println("dates sorted -> " + Arrays.deepToString(dates));
+        }
     }
 }
