@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **11 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **12 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-27-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-49-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-31-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-55-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -110,7 +110,13 @@ flowchart LR
 2. [Priority Queue Applications](11-heaps-and-priority-queues/session-02-priority-queue-applications.md)
 - ✍️ [Practice test](11-heaps-and-priority-queues/practice-test.md) · 💻 [Source code](11-heaps-and-priority-queues/src/README.md)
 
-### Module 12 · Graphs · ⏳ *coming soon*
+### [Module 12 · Graphs](12-graphs/README.md)
+
+1. [Graph Representation, BFS and DFS](12-graphs/session-01-graph-representation-bfs-dfs.md)
+2. [Topological Sort and Directed Cycles](12-graphs/session-02-topological-sort.md)
+3. [Shortest Paths in Weighted Graphs](12-graphs/session-03-shortest-paths.md)
+4. [Minimum Spanning Trees and Union-Find](12-graphs/session-04-minimum-spanning-trees-and-union-find.md)
+- ✍️ [Practice test](12-graphs/practice-test.md) · 💻 [Source code](12-graphs/src/README.md)
 
 ### Module 13 · Tries, Segment Trees and Fenwick Trees · ⏳ *coming soon*
 
@@ -212,7 +218,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 09 · Trees and Binary Search Trees
 - [ ] Module 10 · Balanced Trees (AVL, Red-Black)
 - [ ] Module 11 · Heaps and Priority Queues
-- [ ] Module 12 · Graphs *(coming soon)*
+- [ ] Module 12 · Graphs
 - [ ] Module 13 · Tries, Segment Trees and Fenwick Trees *(coming soon)*
 - [ ] Module 14 · Recursion and Backtracking *(coming soon)*
 - [ ] Module 15 · Greedy Algorithms *(coming soon)*
