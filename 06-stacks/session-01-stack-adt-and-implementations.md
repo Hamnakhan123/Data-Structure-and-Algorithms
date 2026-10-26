@@ -459,13 +459,14 @@ static String simplifyPath(String path) {
 
 </details>
 
+**Real output of the Session 1 lab solutions:**
+
 ```text
-$ java -cp out Labs06
+$ java -cp out Labs06 1
+-- Session 1 labs --
 toBinary(37) = 100101, toBinary(0) = 0
 queue from two stacks: a b c d
 simplifyPath("/home/./hamna/../dsa//stacks/") = /home/dsa/stacks
-tagsBalanced(<p><b>hi</b></p>) = true, (<p><b>hi</p></b>) = false
-removeKDigits("1432219", 3) = 1219, ("10200", 1) = 200
 ```
 
 ---
