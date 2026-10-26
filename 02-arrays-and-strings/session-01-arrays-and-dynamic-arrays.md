@@ -463,16 +463,13 @@ static int dedupSorted(int[] a) {
 
 </details>
 
+**Real output of the Session 1 lab solutions:**
+
 ```text
-$ java -cp out Labs02
+$ java -cp out Labs02 1
+-- Session 1 labs --
 rotateRight([1..7], 3) = [5, 6, 7, 1, 2, 3, 4]
 dedupSorted -> length 5: [1, 2, 3, 7, 9]
-search 9 in sorted matrix -> [2, 2]
-search 15 in sorted matrix -> [-1, -1]
-row sums [245, 215], column sums [130, 160, 170]
-firstUnique("statistics") = 2
-longestCommonPrefix = "inter"
-isCleanPalindrome("A man, a plan, a canal: Panama") = true
 ```
 
 ---
