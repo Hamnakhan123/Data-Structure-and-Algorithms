@@ -412,16 +412,14 @@ Transpose, then reverse each **column** (swap `m[top][j]` with `m[bottom][j]` mo
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs02
-rotateRight([1..7], 3) = [5, 6, 7, 1, 2, 3, 4]
-dedupSorted -> length 5: [1, 2, 3, 7, 9]
+$ java -cp out Labs02 2
+-- Session 2 labs --
 search 9 in sorted matrix -> [2, 2]
 search 15 in sorted matrix -> [-1, -1]
 row sums [245, 215], column sums [130, 160, 170]
-firstUnique("statistics") = 2
-longestCommonPrefix = "inter"
-isCleanPalindrome("A man, a plan, a canal: Panama") = true
 ```
 
 ---
