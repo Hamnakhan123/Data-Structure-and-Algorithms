@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **15 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **16 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-38-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-68-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-41-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-73-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -137,7 +137,12 @@ flowchart LR
 2. [Huffman Coding and Interval Scheduling](15-greedy/session-02-huffman-and-interval-scheduling.md)
 - ✍️ [Practice test](15-greedy/practice-test.md) · 💻 [Source code](15-greedy/src/README.md)
 
-### Module 16 · Dynamic Programming · ⏳ *coming soon*
+### [Module 16 · Dynamic Programming](16-dynamic-programming/README.md)
+
+1. [Memoization and Tabulation](16-dynamic-programming/session-01-memoization-and-tabulation.md)
+2. [Classic DP Problems](16-dynamic-programming/session-02-classic-dp-problems.md)
+3. [Advanced DP Patterns](16-dynamic-programming/session-03-advanced-dp.md)
+- ✍️ [Practice test](16-dynamic-programming/practice-test.md) · 💻 [Source code](16-dynamic-programming/src/README.md)
 
 ### Module 17 · Interview Problem Patterns · ⏳ *coming soon*
 
@@ -235,7 +240,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 13 · Tries, Segment Trees and Fenwick Trees
 - [ ] Module 14 · Recursion and Backtracking
 - [ ] Module 15 · Greedy Algorithms
-- [ ] Module 16 · Dynamic Programming *(coming soon)*
+- [ ] Module 16 · Dynamic Programming
 - [ ] Module 17 · Interview Problem Patterns *(coming soon)*
 - [ ] 🏆 Capstone Projects *(coming soon)*
 
