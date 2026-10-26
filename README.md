@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **16 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **17 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-41-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-73-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-43-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-77-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -144,7 +144,11 @@ flowchart LR
 3. [Advanced DP Patterns](16-dynamic-programming/session-03-advanced-dp.md)
 - ✍️ [Practice test](16-dynamic-programming/practice-test.md) · 💻 [Source code](16-dynamic-programming/src/README.md)
 
-### Module 17 · Interview Problem Patterns · ⏳ *coming soon*
+### [Module 17 · Interview Problem Patterns](17-interview-problem-patterns/README.md)
+
+1. [Two Pointers and Sliding Window](17-interview-problem-patterns/session-01-two-pointers-and-sliding-window.md)
+2. [More Interview Patterns and Choosing the Right One](17-interview-problem-patterns/session-02-more-patterns.md)
+- ✍️ [Practice test](17-interview-problem-patterns/practice-test.md) · 💻 [Source code](17-interview-problem-patterns/src/README.md)
 
 ### 🏆 Capstone Projects · ⏳ *coming soon*
 
@@ -241,7 +245,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 14 · Recursion and Backtracking
 - [ ] Module 15 · Greedy Algorithms
 - [ ] Module 16 · Dynamic Programming
-- [ ] Module 17 · Interview Problem Patterns *(coming soon)*
+- [ ] Module 17 · Interview Problem Patterns
 - [ ] 🏆 Capstone Projects *(coming soon)*
 
 ## 📝 Suggested study routine
