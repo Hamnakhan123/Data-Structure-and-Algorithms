@@ -4,7 +4,7 @@
  * Uses LinkedListProblems.ListNode for the node type.
  *
  * Compile:  javac -d out Labs05.java LinkedListProblems.java
- * Run:      java -cp out Labs05
+ * Run:      java -cp out Labs05 1    (Session 1 labs; other numbers for other sessions; no argument for all)
  *
  * Prepared by Hamna Zahid Khan, Junior Lecturer
  */
@@ -87,15 +87,22 @@ public class Labs05 {
     // <<< oddEven
 
     public static void main(String[] args) {
-        LinkedListProblems.ListNode l = LinkedListProblems.build(4, 8, 15, 16, 23, 42);
-        System.out.println("length = " + length(l) + ", sum = " + sum(l));
-        System.out.println("dedup(1 1 2 3 3 3 4) = " + LinkedListProblems.show(dedup(LinkedListProblems.build(1, 1, 2, 3, 3, 3, 4))));
-        LinkedListProblems.ListNode s = LinkedListProblems.build(10, 20, 40);
-        s = insertSorted(s, 30);
-        s = insertSorted(s, 5);
-        System.out.println("insertSorted 30, 5 = " + LinkedListProblems.show(s));
-        System.out.println("342 + 465 as lists = " + LinkedListProblems.show(addNumbers(
-                LinkedListProblems.build(2, 4, 3), LinkedListProblems.build(5, 6, 4))));
-        System.out.println("oddEven(1..7) = " + LinkedListProblems.show(oddEven(LinkedListProblems.build(1, 2, 3, 4, 5, 6, 7))));
+        int session = args.length > 0 ? Integer.parseInt(args[0]) : 0;   // 0 = all sessions
+        if (session == 0 || session == 1) {
+            System.out.println("-- Session 1 labs --");
+            LinkedListProblems.ListNode l = LinkedListProblems.build(4, 8, 15, 16, 23, 42);
+            System.out.println("length = " + length(l) + ", sum = " + sum(l));
+            System.out.println("dedup(1 1 2 3 3 3 4) = " + LinkedListProblems.show(dedup(LinkedListProblems.build(1, 1, 2, 3, 3, 3, 4))));
+            LinkedListProblems.ListNode s = LinkedListProblems.build(10, 20, 40);
+            s = insertSorted(s, 30);
+            s = insertSorted(s, 5);
+            System.out.println("insertSorted 30, 5 = " + LinkedListProblems.show(s));
+        }
+        if (session == 0 || session == 3) {
+            System.out.println("-- Session 3 labs --");
+            System.out.println("342 + 465 as lists = " + LinkedListProblems.show(addNumbers(
+                    LinkedListProblems.build(2, 4, 3), LinkedListProblems.build(5, 6, 4))));
+            System.out.println("oddEven(1..7) = " + LinkedListProblems.show(oddEven(LinkedListProblems.build(1, 2, 3, 4, 5, 6, 7))));
+        }
     }
 }
