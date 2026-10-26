@@ -435,13 +435,14 @@ Each search makes exactly k comparisons, since n = 2ᵏ − 1 is a perfect binar
 
 </details>
 
+**Real output of the Session 1 lab solutions:**
+
 ```text
-$ java -cp out Labs03
+$ java -cp out Labs03 1
+-- Session 1 labs --
 lastIndexOf({4,7,4,9,4}, 4) = 4
 searchName(Mehwish) = 4, searchName(Kashif) = -1
 searchMatrix(16) = true, searchMatrix(13) = false
-closest price to 500 = 400, to 600 = 650
-minSpeed({3,6,7,11}, 8 hours) = 4
 ```
 
 ---
