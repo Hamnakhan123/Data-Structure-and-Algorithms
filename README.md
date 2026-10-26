@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **13 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **14 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-34-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-60-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-36-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-64-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -125,7 +125,11 @@ flowchart LR
 3. [Fenwick Trees (Binary Indexed Trees)](13-tries-and-advanced-structures/session-03-fenwick-trees.md)
 - ✍️ [Practice test](13-tries-and-advanced-structures/practice-test.md) · 💻 [Source code](13-tries-and-advanced-structures/src/README.md)
 
-### Module 14 · Recursion and Backtracking · ⏳ *coming soon*
+### [Module 14 · Recursion and Backtracking](14-recursion-backtracking/README.md)
+
+1. [The Backtracking Framework](14-recursion-backtracking/session-01-backtracking-framework.md)
+2. [Constraint Problems: N-Queens, Sudoku and Friends](14-recursion-backtracking/session-02-constraint-problems.md)
+- ✍️ [Practice test](14-recursion-backtracking/practice-test.md) · 💻 [Source code](14-recursion-backtracking/src/README.md)
 
 ### Module 15 · Greedy Algorithms · ⏳ *coming soon*
 
@@ -225,7 +229,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 11 · Heaps and Priority Queues
 - [ ] Module 12 · Graphs
 - [ ] Module 13 · Tries, Segment Trees and Fenwick Trees
-- [ ] Module 14 · Recursion and Backtracking *(coming soon)*
+- [ ] Module 14 · Recursion and Backtracking
 - [ ] Module 15 · Greedy Algorithms *(coming soon)*
 - [ ] Module 16 · Dynamic Programming *(coming soon)*
 - [ ] Module 17 · Interview Problem Patterns *(coming soon)*
