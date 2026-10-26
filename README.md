@@ -6,9 +6,9 @@ Prepared by **Hamna Zahid Khan**, Junior Lecturer
 
 A complete, university-level course in **Data Structures and Algorithms using Java 17**. Every session is a self-contained lecture note with analogies, Mermaid diagrams, step-by-step dry runs, complexity tables, worked examples, a real-life problem, common mistakes, lab tasks with hidden solutions, a quiz and viva questions, backed by **real, compiled and tested Java programs** whose actual output is pasted into the notes.
 
-> 🚧 **6 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
+> 🚧 **7 of 18 parts published.** Modules are released in order; the rest are marked *coming soon* below.
 
-![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-17-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-29-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
+![Java](https://img.shields.io/badge/Java-17-FF6B1A?style=flat-square) ![Sessions](https://img.shields.io/badge/sessions-19-A78BFA?style=flat-square) ![Java files](https://img.shields.io/badge/Java%20files-33-FCD34D?style=flat-square) ![No dependencies](https://img.shields.io/badge/dependencies-none-F43F5E?style=flat-square)
 
 ## 🧭 Course roadmap
 
@@ -80,7 +80,11 @@ flowchart LR
 3. [Monotonic Stacks](06-stacks/session-03-monotonic-stack.md)
 - ✍️ [Practice test](06-stacks/practice-test.md) · 💻 [Source code](06-stacks/src/README.md)
 
-### Module 07 · Queues and Deques · ⏳ *coming soon*
+### [Module 07 · Queues and Deques](07-queues-and-deques/README.md)
+
+1. [The Queue ADT and the Circular Buffer](07-queues-and-deques/session-01-queue-adt-and-circular-buffer.md)
+2. [Deques and Their Applications](07-queues-and-deques/session-02-deques-and-applications.md)
+- ✍️ [Practice test](07-queues-and-deques/practice-test.md) · 💻 [Source code](07-queues-and-deques/src/README.md)
 
 ### Module 08 · Hashing · ⏳ *coming soon*
 
@@ -187,7 +191,7 @@ Copy this list into your notes and tick modules off as you finish them:
 - [ ] Module 04 · Sorting
 - [ ] Module 05 · Linked Lists
 - [ ] Module 06 · Stacks
-- [ ] Module 07 · Queues and Deques *(coming soon)*
+- [ ] Module 07 · Queues and Deques
 - [ ] Module 08 · Hashing *(coming soon)*
 - [ ] Module 09 · Trees and Binary Search Trees *(coming soon)*
 - [ ] Module 10 · Balanced Trees (AVL, Red-Black) *(coming soon)*
