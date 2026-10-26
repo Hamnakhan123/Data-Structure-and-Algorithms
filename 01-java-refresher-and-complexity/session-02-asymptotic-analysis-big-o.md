@@ -430,17 +430,13 @@ for (int i = 0; i < n * n; i++) for (int j = 0; j < i; j++) x++;
 
 </details>
 
+**Real output of the Session 2 lab solutions:**
+
 ```text
-$ java -cp out Labs01
-swap -> [Zara, Omar, Hina]
-by length then alpha -> [map, set, heap, graph, queue, stack]
-secondLargest({4, 9, 9, 7, 1}) = 7
+$ java -cp out Labs01 2
+-- Session 2 labs --
 duplicates? brute=true sorted=true hash=true
 pairWithSum({1,3,4,6,8,11}, 10) -> indices [2, 3]
-arraySum({3,1,4,1,5}) = 14
-reverse("recursion") = noisrucer
-gridPaths(2,2) = 6, gridPaths(5,5) = 252
-5 4 3 2 1 Go!
 ```
 
 ---
